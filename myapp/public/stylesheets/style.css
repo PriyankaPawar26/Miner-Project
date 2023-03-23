@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  background: #fff;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.2s linear;
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+  margin: 10px 0 0 10px;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+}
+.fa {
+  position: relative;
+  width: 70px;
+  height: 5px;
+  top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+a:hover {
+  background: #eee;
+}
+nav:hover {
+  width: 250px;
+  transition: all 0.5s ease;
+}
+.logout {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+
+/* Home Page Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "josefin sans", sans-serif;
+}
+
+/*
+
+navbar 
+
+*/
+
+.first-nav {
+  background-color: black;
+  padding-top: 5px;
+  padding-left: 1%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-nav {
+  padding: 10px 10px 0px;
+}
+@media screen and (max-width: 410px) {
+  nav ul li {
+    padding: 10px 5px 0px;
+    font-size: 10px;
+  }
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ea1538;
+  transition: 0.3s;
+}
+.first-nav-text {
+  color: white;
+}
+.first-nav h1 {
+  font-size: 20px;
+}
+.Second-nav ul li a {
+  color: black;
+  display: inline-block;
+}
+
+/* 
+
+slider 
+
+*/
+
+.carousel-inner div img {
+  height: 100vh;
+}
+@media screen and (max-width: 880px) {
+  .carousel-inner div img {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 780px) {
+  .carousel-inner div img {
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 580px) {
+  .carousel-inner div img {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-inner div img {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .carousel-inner div img {
+    height: 40vh;
+  }
+}
