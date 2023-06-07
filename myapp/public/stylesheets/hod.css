@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: white !important;
+  }
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: auto !important;
+    left: 0 !important;
+    background: #fff !important;
+    width: 90px !important;
+    overflow: hidden !important;
+    transition: width 0.2s linear !important;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1) !important;
+  }
+  .logo {
+    text-align: center !important;
+    display: flex !important;
+    transition: all 0.5s ease !important;
+    margin: 10px 0 0 10px !important;
+  }
+  .logo img {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50% !important;
+  }
+  .logo span {
+    font-weight: bold !important;
+    padding-left: 15px !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    padding-top: 12px !important;
+  }
+  nav ul {
+    padding: 0 !important;
+  }
+  a {
+    position: relative !important;
+    color: rgb(85, 83, 83) !important;
+    font-size: 14px !important;
+    display: table !important;
+    width: 300px !important;
+    padding: 10px !important;
+  }
+  .fa {
+    position: relative !important;
+    width: 70px !important;
+    height: 15px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+  .nav-item {
+    position: relative !important;
+    margin-left: 10px !important;
+  }
+  a:hover {
+    background: #eee !important;
+  }
+  nav:hover {
+    width: 250px !important;
+    transition: all 0.5s ease !important;
+  }
+  nav ul li a {
+    position: relative !important;
+    text-decoration: none !important;
+  }
+  nav ul li {
+    list-style-type: none !important;
+  }
+  
+  /* section */
+  
+  .container {
+    padding-left: 200px !important;
+    padding-top: 100px !important;
+    display: flex !important;
+  }
+  .card-body {
+    background-color: antiquewhite !important;
+    margin: 10px !important;
+  }
+  .card-title {
+    background-color: antiquewhite !important;
+  }
+  .card-subtitle {
+    background-color: antiquewhite !important;
+  }
+  
+
+  /* time table */
+  * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: white !important;
+  }
+  nav {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    height: auto !important;
+    left: 0 !important;
+    background: #fff !important;
+    width: 90px !important;
+    overflow: hidden !important;
+    transition: width 0.2s linear !important;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1) !important;
+  }
+  .logo {
+    text-align: center !important;
+    display: flex !important;
+    transition: all 0.5s ease !important;
+    margin: 10px 0 0 10px !important;
+  }
+  .logo img {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50% !important;
+  }
+  .logo span {
+    font-weight: bold !important;
+    padding-left: 15px !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    padding-top: 12px !important;
+  }
+  nav ul {
+    padding: 0 !important;
+  }
+  a {
+    position: relative !important;
+    color: rgb(85, 83, 83) !important;
+    font-size: 14px !important;
+    display: table !important;
+    width: 300px !important;
+    padding: 10px !important;
+  }
+  .fa {
+    position: relative !important;
+    width: 70px !important;
+    height: 15px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+  .nav-item {
+    position: relative !important;
+    margin-left: 10px !important;
+  }
+  a:hover {
+    background: #eee !important;
+  }
+  nav:hover {
+    width: 250px !important;
+    transition: all 0.5s ease !important;
+  }
+  nav ul li a {
+    position: relative !important;
+    text-decoration: none !important;
+  }
+  nav ul li {
+    list-style-type: none !important;
+  }
+  
+  /* section */
+  
+  /* .container {
+    padding-left: 200px !important;
+    padding-top: 50px;
+  } */
+  /* .inputBox {
+    padding: 50px !important;
+  } */
+  
+  .Add_Staff {
+    position: absolute !important;
+    left: 250px !important;
+    padding-top: 50px !important;
+  }
+  
+  .add_staff_fprm form {
+    inset: 4px !important;
+    padding: 50px 40px !important;
+    border-radius: 8px !important;
+    z-index: 2 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  h2 {
+    font-weight: 4500 !important;
+    letter-spacing: 0.1em !important;
+    background-color: #8f8f8f !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    justify-content: center !important;
+    text-align: center !important;
+    border-radius: 4px !important;
+    padding: 10px 0 10px 0 !important;
+  }
+  .add_staff_fprm form .inputBox {
+    position: relative !important;
+    width: 700px !important;
+    margin-top: 35px !important;
+  }
+  .add_staff_fprm form .inputBox input {
+    position: relative !important;
+    width: 100% !important;
+    padding: 20px 10px 10px !important;
+    background: transparent !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #23242a !important;
+    font-size: 1em !important;
+    letter-spacing: 0.05em !important;
+    transition: 0.5s !important;
+    z-index: 10 !important;
+  }
+  .add_staff_fprm form .inputBox span {
+    position: absolute !important;
+    left: 0 !important;
+    padding: 20px 10px 10px !important;
+    pointer-events: none !important;
+    color: #8f8f8f !important;
+    font-size: 1em !important;
+    letter-spacing: 0.05em !important;
+    transition: 0.5s !important;
+  }
+  .add_staff_fprm form .inputBox input:valid ~ span,
+  .add_staff_fprm form .inputBox input:focus ~ span {
+    font-size: 0.75em !important;
+    transform: translateY(-34px) !important;
+  }
+  .add_staff_fprm form .inputBox i {
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 2px !important;
+    background: rgb(202, 202, 202) !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    transition: 00.5s !important;
+    pointer-events: none !important;
+  }
+  .add_staff_fprm form .inputBox input:valid ~ i,
+  .add_staff_fprm form .inputBox input:focus ~ i {
+    height: 44px !important;
+  }
+  .add_staff_fprm form input[type="submit"] {
+    border: none !important;
+    outline: none !important;
+    padding: 9px 25px !important;
+    cursor: pointer !important;
+    font-size: 0.9em !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    width: 100px !important;
+    margin-top: 10px !important;
+  }
+  .add_staff_fprm form input[type="submit"]:active {
+    opacity: 0.8 !important;
+  }
+  .file {
+    cursor: pointer !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 0.9em !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+  }
+  

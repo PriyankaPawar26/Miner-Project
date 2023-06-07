@@ -1,0 +1,180 @@
+ <!-- <!DOCTYPE html>
+<html>
+  <head>
+      <!-- <title>
+        <%= (typeof title != "undefined" ? title : "") %>
+    </title>  
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div id="tooplate_header_wrapper">
+
+        <div id="tooplate_header">
+        
+            <div class="cleaner_h10"></div>
+            
+            <div id="tooplate_menu">
+              
+                <div id="home_menu"><a href="#"></a></div>
+                    
+                <ul style="display: inline-block;">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about" class="current">About Us</a></li>
+                    <li><a href="register">Register</a></li>
+                    <li><a href="login">login</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>    	
+            
+            </div>
+    <form action="/register" method="post">
+         <div class="container"> 
+          <h1 style="margin-top: 40px;">Register</h1>
+          <font color="orange"><%= msg%></font>
+          
+          
+          <input type="text" placeholder="Enter name" class="form-control" name="name" id="name" required>
+          
+          
+          <input type="text" placeholder="Enter Email" class="form-control" name="email" id="email" required>
+      
+          <input type="number" placeholder="Enter contact number" class="form-control" name="number" id="number" required>
+          
+          <input type="password" placeholder="Enter Password" class="form-control" name="psw" id="psw" required>
+      
+          
+          <input type="password" placeholder="Repeat Password" class="form-control" name="psw-repeat" id="psw-repeat" required>
+
+          
+          <input type="text" class="form-control" name="city" id="city"  placeholder="Enter city">
+
+          <label for="address"><b>Address</b></label><br>
+          <textarea name="address"  class="form-control" id="" cols="30" rows="5"></textarea><br>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Gender</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1" checked="Male" value="male">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div><div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" 
+                id="flexRadioDefault1" value="female">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Female
+                </label>
+              </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Proffesion</label>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Proffesion" id="flexRadioDefault1" checked="admin" value="admin">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Admin
+              </label>
+            </div><div class="form-check">
+              <input class="form-check-input" type="radio" name="Proffesion" 
+              id="flexRadioDefault1" value="hod">
+              <label class="form-check-label" for="flexRadioDefault1">
+                HOD
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Proffesion" 
+              id="flexRadioDefault1" value="user">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Student
+              </label>
+            </div>
+      </div>
+
+
+          
+          <hr>
+      
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p><br>
+          <button type="submit" class="registerbtn">Register</button><br>
+        div> 
+      </form>
+
+      -->
+
+      <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/stylesheets/register.css" />
+    <link rel="website icon" type="jpg" href="/images/17784 - Copy.jpg" />
+  </head>
+  <body>
+    <div class="login-form">
+      <h2>Registration Form</h2>
+      <form action="/register" method="post">
+        <div class="inputBox">
+          <input type="text" name="first_name" required="required" />
+          <span>First-Name</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="text" name="middle_name" required="required" />
+          <span>Middle-Name</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="text" name="last_name" required="required" />
+          <span>Last-Name</span>
+          <i></i>
+        </div>
+        <div class="inputBox DOB">
+          <input type="date" name="dob" required="required" />
+          <span>DOB</span>
+          <i></i>
+        </div>
+        <div class="inputBox">
+          <input type="text" name="branch" required="required" />
+          <span>Branch</span>
+          <i></i>
+        </div>
+        <div class="inputBox Upload-Image">
+          <input type="file" name="upload_image" required="required" />
+          <span>Upload-Image</span>
+          <i></i>
+        </div>
+
+        <div>
+          <div class="inputBox2">
+            <input type="text" name="sem" required="required" />
+            <span>Sem</span>
+            <i></i>
+          </div>
+          <div class="inputBox2">
+            <input type="text" name="year" required="required" />
+            <span>Year</span>
+            <i></i>
+          </div>
+          <div class="inputBox2">
+            <input type="id" name="college-id" required="required" />
+            <span>College-ID</span>
+            <i></i>
+          </div>
+          <div class="inputBox2">
+            <input type="email" name="email" required="required" />
+            <span>Email</span>
+            <i></i>
+          </div>
+          <div class="inputBox2">
+            <input type="password" name="password" required="required" />
+            <span>Password</span>
+            <i></i>
+          </div>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

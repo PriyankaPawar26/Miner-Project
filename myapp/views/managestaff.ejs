@@ -1,0 +1,128 @@
+
+  
+  <head>
+    <style>
+      .main {
+                position: absolute;
+                margin-left: 250px;
+                padding-top: 30px;
+              }
+
+      .main .content table thead tr th{
+        background-color: aquamarine;
+       margin-left: 70px;
+       
+      }
+        
+    </style>
+  </head>
+
+
+
+  <body>
+
+    
+    <% include adminHeader %>
+    
+    <!-- START PAGE SOURCE -->
+    <div class="main" style="top: 0;padding-top: 0;">
+    
+      <div class="content">
+        <center>
+          <h3 style="color: white;">View & Manage Users</h3>
+        </center>
+        <table class="table" style="background-color: white; top: 0; ">
+            <!-- <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Date</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% for (let row of userDetails){ %>
+              <tr>
+                <td><%= row._id%></td>
+                <td><%= row.name%></td>
+                <td><%= row.email%></td>
+                <td><%= row.contact%></td>
+                <td><%= row.dt%></td>
+                <td><%= row.address%></td>
+                <td><%= row.city%></td>
+                <td><%= row.gender%></td>
+                <td><%= row.status%></td>
+
+                <td>
+                  <% if(row.status){%>
+                    <a href="/admin/managestaffstatus?s=block&regid=<%= row._id%>" style=" color:orangered;text-decoration: none;">Block User</a>
+                    <% }else{%>
+                      <a href="/admin/managestaffstatus?s=verify&regid=<%= row._id%>" style=" color:green;text-decoration: none;">Verify User</a>
+                      <%}%>
+                </td>
+                <td>
+                  <a href="/admin/managestaffstatus?s=delete&regid=<%= row._id%>" style=" color:red;text-decoration: none;">Delete User</a>
+                </td>
+              </tr>
+              <% } %>
+            </tbody> -->
+
+            <thead style="border: 1px solid black;">
+              <tr style="border: 1px solid black;">
+                <th>Id</th>
+                <th>First-name</th>
+                <!-- <th>Middle-name</th> -->
+                <th>Last-Name</th>
+                <th>Date</th>
+                <th>Email</th>
+                <th>Branch</th>
+                <th>Photo</th>
+                <!-- <th>DOB</th>
+                
+                
+                <th>Sem</th>
+                <th>Year</th>
+                <th>Collage-Id</th> -->
+                
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% for (let row of userDetails){ %>
+              <tr>
+                <td><%= row._id%></td>
+                <td><%= row.first_name%></td>
+                <td><%= row.last_name%></td>
+                <td><%= row.email%></td>
+                <!-- <td><%= row.contact%></td> -->
+                <td><%= row.dt%></td>
+                <td><%= row.branch%></td>
+                <!-- <td><%= row.city%></td> -->
+                <td><%= row.upload_image%></td>
+                <td><%= row.status%></td>
+
+                <td>
+                  <% if(row.status){%>
+                    <a href="/admin/managestaffstatus?s=block&regid=<%= row._id%>" style=" color:orangered;text-decoration: none;">Block User</a>
+                    <% }else{%>
+                      <a href="/admin/managestaffstatus?s=verify&regid=<%= row._id%>" style=" color:green;text-decoration: none;">Verify User</a>
+                      <%}%>
+                </td>
+                <td>
+                  <a href="/admin/managestaffstatus?s=delete&regid=<%= row._id%>" style=" color:red;text-decoration: none;">Delete User</a>
+                </td>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>
+      </div>
+      
+    </div>
+ 

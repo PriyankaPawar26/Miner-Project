@@ -3,10 +3,15 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var fileupload = require('express-fileupload')
+var session = require('express-session')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var adminRouter = require('./routes/admin')
+var adminRouter = require('./routes/admin');
+var hodRouter = require('./routes/hod');
+var staffRouter =require('./routes/staff')
+
 
 var app = express();
 
@@ -19,10 +24,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(fileupload())
+// app.use(session({ 'secret': 'My Name is Videh Jaiswal', saveUninitialized: true, resave: false, cookie: { expires: 1000 } }))
+app.use(session({ 'secret': 'My Name is priyanka pawar', saveUninitialized: true, resave: false }))
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin', adminRouter)
+app.use('/hod',hodRouter)
+app.use('/staff', staffRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

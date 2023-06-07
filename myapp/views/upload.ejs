@@ -1,0 +1,62 @@
+
+<% include adminHeader %>
+     <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>upload images</title>
+   
+    <style>
+      /* div.preview-images > img {
+        width: 30%;
+      } */
+  .post_pic img{
+     height: 300px;
+     width: 200px;
+  }
+    </style>
+  </head>
+
+  <body>
+    <div style="margin-left: 250px;" class="container">
+      <div class="row">
+        <div class="col-sm-8 mt-3">
+         
+          <form style="text-align: center; font-size: 1em; color: white;" class="mt-4"
+            action="/admin/upload"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div  class="form-group">
+              <input
+                type="file"
+                name="caticon"
+                id="input-files"
+                class="form-control-file border"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <div style="margin-top: 100;" class="post_pic">
+            <% for (let row of catList) { %>
+              
+              <img src="../uploads/<%= row.caticonnm%>" />
+            
+            <% } %>
+           
+          </div>
+
+        </div>
+      </div>
+      <hr />
+      
+    </div>
+
+    
+   
+
+  </body>
+</html>

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    /* position: absolute; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    /* text-align: center; */
+    padding-left: 20px !important;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 0px;
+  }
+  .logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .logo span {
+    /* font-weight: bold; */
+    padding-left: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 12px;
+  }
+  a {
+    position: relative !important;
+    color: rgb(85, 83, 83) !important;
+    font-size: 14px !important;
+    display: table !important;
+    width: 300px !important;
+    padding: 10px !important;
+  }
+  .fa {
+    position: relative !important;
+    width: 70px !important;
+    height: 15px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+  .nav-item {
+    position: relative !important;
+    margin-left: 10px !important;
+  }
+  a:hover {
+    background: #eee;
+  }
+  nav:hover {
+    width: 250px;
+    transition: all 0.5s ease;
+  }
+  nav ul li {
+    list-style-type: none !important;
+  }
+  nav ul li a {
+    position: relative;
+    text-decoration: none;
+  }
+  nav ul ul {
+    position: static;
+    display: none;
+  }
+  nav ul .course-show.show {
+    display: block;
+  }
+  nav ul .subject-show.show1 {
+    display: block;
+  }
+  nav ul .session-show.show2 {
+    display: block;
+  }
+  nav ul ul li {
+    line-height: 20px;
+    border-bottom: none;
+  }
+  nav ul ul li a {
+    font-size: 12px;
+    color: rgb(85, 83, 83);
+    padding-left: 100px;
+  }
+  nav ul li a span i.rotate {
+    transform: translateY(-50%) rotate(-180deg);
+  }
+  .col-lg-8 {
+    width: 600px !important;
+  }
+  .col-lg-4 {
+    width: 400px !important;
+  }
+  .student-profile {
+    float: right;
+  }
+  nav ul {
+    padding: 0;
+  }
+  

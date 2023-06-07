@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/message-lines?f=classic&s=solid"
+    />
+    <link rel="website icon" type="jpg" href="photos\17784 - Copy.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <% include adminHeader %>
+    <div style="margin-left: 150px; text-align: center;" class="main">
+        <div class="clr"></div>
+        <div class="header">
+          <div class="clr"></div>
+        </div>
+        <div class="content">
+          <center>
+            <h3>View & Manage Courses</h3>
+          </center>
+          <table class="table">
+              <thead>
+                <tr>
+                  <th style="text-align: center;">Course</th>
+                </tr>
+              </thead>
+              <tbody style="margin-left: 200px;">
+                <% for (let row of courseDetails){ %>
+                <tr style="margin-left: 200px;">
+                  <td><%= row._crsid%></td>
+                  <td><%= row.name%></td>
+                  
+                  <td>
+                    <a href="/admin/managecourse?s=delete&regid=<%= row._crsid%>" style=" color:red;text-decoration: none;">Delete Course</a>
+                  </td>
+                </tr>
+                <% } %>
+              </tbody>
+            </table>
+        </div>
+        
+      </div>
+  </body>
+</html>

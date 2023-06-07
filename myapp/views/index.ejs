@@ -1,160 +1,378 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-    />
-  </head>
-  <body>
-    <nav class="first-nav">
-      <h1 class="first-nav-text">Colleg Name</h1>
-      <ul>
-        <li>
-          <a href="login.html" class="first-nav-text">login</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="Second-nav">
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="">Contact us</a></li>
-        <li><a href="">Admission</a></li>
-      </ul>
-    </nav>
 
-    
-      
-      slide
-    
-   
-
-    <div
-      id="carouselExampleSlidesOnly"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="photos\camilo-botia-k4vFDPJoDZk-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="photos\dom-fou-YRMWVcdyhmI-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="photos\michael-marsh-U0dBV_QeiYk-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="photos\wonderlane-6zlgM-GUd6I-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="photos\kenny-eliason-1-aA2Fadydc-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="photos\feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-    </div>
-
-    <    
-        script
-
-   
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Home Page</title>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login">Login</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Home</title>
+    <style>
+      *{
+        overflow-x: hidden;
+        margin: 0px;
+        padding: 0px;
+       }
+      .carousel-inner img{
+        height: 70vh;
+      }
+      .bg{
+        background-color: rgb(214, 209, 209);
+      }
+      #ads{
+        margin:30px;
+        padding:30px;
+        background-color: rgb(69, 77, 77);
+        height:100%;
+      }
+      #sd p a{
+        text-decoration: none;
+      }
+      #nav{
+        background-color:rgb(31, 28, 28);
+      }
+      #bt{
+          color: black;
+          background-color: white;
+      }
+    </style>
+</head>
+    <body>
+      <nav class="navbar navbar-expand-lg text-bg-dark" id="nav">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-light fs-2" href="#">SA<span class="text-warning">i</span>T</a>
+          <button class="navbar-toggler text-bg-light " id="bt" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#about">About-Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#con">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="/login" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Login
+                </a>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog ">
+                    <div class="modal-content">
+                      <div class="modal-header bg-dark">
+                        <img src="/images/img13.html" class="img-fluid rounded-end-circle"alt="">
+                        <form class="bg-dark ms-5" id="form">
+                          <button type="button" class="btn-close btn-close-white mb-2 float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <div>
+                            <p class="text-center fs-3">Sign-<span class="text-warning">in</span></p>
+                          </div>
+                          <div class="mb-2">
+                            <input type="email" required="required"class="form-control"  id="name" aria-describedby="emailHelp"placeholder="E-mail">
+                          </div>
+                          <div>
+                            <input type="password" required="required" class="form-control" id="password" placeholder="Password">
+                          </div>
+                          <div class=" form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1 ">Remember Me</label>
+                          </div>
+                          <div class="text-center">
+                            <input type="submit"class="btn btn-warning" id="submit" value="login">
+                          </div>  
+
+
+                          <!-- <div class="right">
+                            <h2 class="login_head">Teacher login </h2>
+                            <form action="" id="form">
+                                <input type="text" id="name" placeholder="username">
+                                <input type="password" id="password" placeholder="Password">
+                                
+                                    <input type="submit" class="btn btn-warning" id="submit" value="Submit">
+                            </form>
+                        </div> -->
+
+
+
+                        </form>              
+                      </div>  
+                    </div>
+                  </div>
+                </div>    
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+          </div>
+        </div>
+      </nav>
+      <div class="col-12 bg-warning text-center">
+        <p class="fs-3 fw-bolder">Welcome to SAiT College Management System.</p>
       </div>
-    </div>
-  </nav>
-  
-</body>
+      <div id="carouselExampleCaptions" class="carousel slide mt-4">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner img-fluid">
+          <div class="carousel-item active">
+            <img src="/images/img7.html" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <p class="fs-1">First slide label</p>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item img-fluid">
+            <img src="/images/img2.html" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <p class="fs-3">Second slide label</p>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item img-fluid">
+            <img src="/images/img10.html" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <p class="fs-3">Third slide label</p>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="mt-4">
+        <div class="row">
+          <div class="col-4"></div>
+        <div class="col-4" id="about">
+          <p class="text-center m-3 text-dark fs-3">About-<span class="text-warning">Us</span></p><hr class="m-auto w-25">
+        </div>
+        <div class="col-4"></div>
+        </div>
+        <div class="container-fluid " >
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-12">
+                 <p class="text-start mt-3 text-dark fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, veritatis.</p>   
+                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed  text-bg-dark text-warning " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed text-dark text-bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed  text-bg-dark text-warning " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12  text-center">
+              <img src="/images/img3.html" class="img-fluid img-thumbnail mt-3">
+            </div>
+        </div>  
+      </section>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3"></div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <p class="text-center mt-3 text-light text-bg-dark fs-2 fw-semibold">Our <span class="text-warning">Featured</span> Courses</p>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p class= " text-center text-bg-light m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde atque ipsa suscipit praesentium possimus iusto, esse voluptates cum natus aperiam illum veritatis blanditiis fuga modi placeat adipisci maiores omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab distinctio quas perferendis? Id nesciunt adipisci et modi tenetur tempora. Nemo dolor ea neque architecto repellendus vero sequi beatae ratione velit!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-4"></div>
+        <div class="col-sm-12 col-md-4 col-lg-4" id="about">
+          <p class="text-center m-3 text-dark fs-2">Our-<span class="text-warning">Courses</span></p><hr class="m-auto w-25">
+        </div>
+        <div class="col-4"></div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row ">
+            <div class="col-sm-12 col-md-4 col-lg-4 p-5">
+              <div class="card">
+                <img src="/images/img6.html" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-bg-dark">
+                  <p class="card-title fs-3">Card title</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Know more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 p-5">
+              <div class="card">
+                <img src="/images/img6.html" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-bg-dark">
+                  <p class="card-title fs-3">Card title</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Know more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 p-5">
+              <div class="card">
+                <img src="/images/img6.html" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-bg-dark">
+                  <p class="card-title fs-3">Card title</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Know more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 p-5">
+              <div class="card">
+                <img src="/images/img6.html" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-bg-dark">
+                  <p class="card-title fs-3">Card title</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Know more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 p-5 ">
+              <div class="card">
+                <img src="/images/img6.html" class="card-img-top img-fluid" alt="...">
+                <div class="card-body text-bg-dark">
+                  <p class="card-title fs-3">Card title</p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-warning">Know more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container" id="gallery">
+          <div class="row">
+            <div class="col-12 text-center m-3"><p class="fs-2">Gallery</p></div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center m-3">
+              <button type="button" class="btn btn-outline-black waves-effect filter text-bg-dark" data-rel="all">All</button>
+              <button type="button" class="btn btn-outline-black waves-effect filter text-bg-warning" data-rel="1">Events</button>
+              <button type="button" class="btn btn-outline-black waves-effect filter text-bg-dark" data-rel="2">Campus</button>
+            </div>
+          </div>
+          <div class="row m-5">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img1.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img10.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img3.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img4.html" height="200px" alt="">
+            </div>
+          </div>
+          <div class="row m-5">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img2.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img7.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img8.html" height="200px" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <img src="/images/img7.html" height="200px" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center ">
+              <img src="/images/img13.html"id="gallery" class="img-fluid" height="200px">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-fluid bg-dark text-light" id="con">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <p class="mt-3 fs-3">Courses</p>
+                <ul>
+                    <li><a href="" class="text-light-emphasis">B Tech - Computer Science</a></li>
+                    <li><a href="" class="text-light-emphasis">M Tech - Computer Science</a></li>
+                    <li><a href="" class="text-light-emphasis">B Tech - Electrical & Electronics</a></li>
+                    <li><a href="" class="text-light-emphasis">B Tech-Electronics & Comm</a></li>
+                    <li><a href="" class="text-light-emphasis">B Tech - Civil Engineering</a></li>
+                    <li><a href="" class="text-light-emphasis" >M Tech - Structural Engineering</a></li>
+                    <li><a href="" class="text-light-emphasis">B Tech - Mechanical Engineering</a></li>
+                    <li><a href="" class="text-light-emphasis">M Tech - Structural Engineering</a></li>
+                    <li><a href="" class="text-light-emphasis">B Tech - Design</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <p class="mt-3 fs-3">QuicknLinks</p>
+              <ul>
+                  <li><a href="" class="text-light-emphasis">Admission Process</a></li>
+                  <li><a href="" class="text-light-emphasis">Placements</a></li>
+                  <li><a href="" class="text-light-emphasis">Financial Aid</a></li>
+                  <li><a href="" class="text-light-emphasis">Smart Login</a></li>
+                  <li><a href="" class="text-light-emphasis">Grievance</a></li>
+                  <li><a href="" class="text-light-emphasis">Student Verification</a></li>
+                  <li><a href="" class="text-light-emphasis">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4" id="sd">
+              <p class="mt-3 fs-3">Connect</p>
+                <p><a href="" class="text-light-emphasis">connect@sait.ac.in</a></p>
+                <p><a href="" class="text-light-emphasis">info@sait.ac.in</a></p>
+                <p><a href="" class="text-light-emphasis">admissions@sait.ac.in</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+    </body>
 </html>
